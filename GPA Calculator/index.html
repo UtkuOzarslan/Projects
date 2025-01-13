@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ortalama Hesaplayıcı</title>
+</head>
+<body>
+
+    <h1>Ortalama Hesaplayıcı</h1>
+
+    <div class="add-container">
+        <div class="add-form">
+            <h2>Ders Ekleyin</h2>
+            <form action="">
+                <table>
+                    <tr class="lesson-input-container">
+                        <td class="label-container">
+                            <label for="lessonInput">Ders ismini giriniz: </label>
+                        </td>
+                        <td class="input-container">
+                            <input type="text" id="lessonInput" name="lessonInput" required>
+                        </td>
+                    </tr>
+                    <tr class="number-input-container">
+                        <td class="label-container">
+                            <label for="lessonNumberInput">Ders saatini giriniz: </label>
+                        </td>
+                        <td class="input-container">
+                            <input type="number" id="lessonNumberInput" name="lessonInput" min="1" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="right"><button type="submit" id="addLesson">+</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div class="grade-container">
+        <div class="gpa-container">Ortalama: <span class="gpa">0.0000</span></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
