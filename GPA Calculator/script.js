@@ -7,6 +7,7 @@ const tableInputs = document.querySelectorAll(".exam-input, .performance-input")
 const clearButtons = document.querySelectorAll(".clear-button");
 const removeButtons = document.querySelectorAll(".remove-button");
 const resultCell = document.querySelector(".point-container");
+const gpaContainer = document.querySelector(".gpa-container");
 const gpaSpan = document.querySelector(".gpa");
 
 // ADD ELEMENT
